@@ -1,7 +1,9 @@
 import React from 'react';
+import Chart from 'chart.js';
+import ChartFile from '../ChartFile/ChartFile'
 
 function Homepage() {
-  return (
+    return (
     <div className="container center">
 
         <div className="page-area">
@@ -89,7 +91,8 @@ function Homepage() {
                 <section>
                 <h1>Chart</h1>
                 <p title="Budget your spending for free">
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                   {/*  <canvas id="myChart" width="400" height="400"></canvas> */}
+                   <ChartFile/> 
                 </p>
                 </section>
             </div>
